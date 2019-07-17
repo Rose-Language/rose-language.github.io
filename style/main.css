@@ -1,0 +1,83 @@
+*{
+    margin: 0px;
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    background-color: rgb(255, 229, 190);
+    height: 1000px;
+}
+
+.container{
+    background-color: #fff;
+    margin-top: 2%;
+    width: 900px;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+/*########## HEADER ##########*/
+
+
+.title{
+    color: #E9192E;
+    font-size: 300%;
+    margin-left: 5%;
+    display: inline-block;
+}
+
+.desc{
+    color: #E9192E;
+    font-size: 70%;
+    display: inline-block;
+}
+
+.logo{
+    height: 100px;
+    width: auto;
+    float: right;
+    margin-right: 5%;
+    margin-top: 0%;
+}
+
+
+/*--------- MENU -----------*/
+
+.menu li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 90%;
+}
+
+.menu li{
+    list-style: none;
+    display: inline-block;
+    padding: 5px;
+    /*transition: 0.3s;*/
+}
+
+.menu li:hover{
+    background-color: rgb(182, 27, 65);
+}
+
+.menu {
+    background-color: #E9192E;
+    border-radius: 50px;
+    margin-top: 10px;
+}
+
+/*############ CONTENT #############*/
+
+.simple{
+    float:  right;
+    height: 200px;
+    width: 150px;
+    border-radius: 20px;
+    border: solid 2px #E9192E ;
+    padding: 15px;
+    margin: 10px;
+}
